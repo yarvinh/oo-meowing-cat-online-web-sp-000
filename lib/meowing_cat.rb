@@ -2,7 +2,7 @@
 class Cat
     attr_reader :name
     attr_writer :name
-    attr_accessor  :meow
+    attr_accessor  :meow = "meow!"
     @meow
 
 end
