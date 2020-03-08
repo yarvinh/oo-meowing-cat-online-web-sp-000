@@ -2,6 +2,6 @@
 class Cat
     attr_reader :name
     attr_writer :name
-    attr_accessor puts :meow
+    attr_accessor  :meow
 
 end
