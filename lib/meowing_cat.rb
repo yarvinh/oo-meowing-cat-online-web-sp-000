@@ -1,8 +1,11 @@
 ## code your solution here.
 class Cat
-    attr_reader :name,:meow
-    attr_writer :name,:meow
-    # attr_accessor  :meow
-    puts @meow
+    attr_reader :name
+    attr_writer :name
+    attr_accessor  :meow
+
+    def meow
+      puts @meow
+    end
 
 end
