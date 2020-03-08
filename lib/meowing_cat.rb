@@ -3,5 +3,7 @@ class Cat
     attr_reader :name
     attr_writer :name
     attr_accessor :meow
-puts :meow
+def meow
+  puts meow
+end
 end
