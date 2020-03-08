@@ -3,6 +3,6 @@ class Cat
     attr_reader :name
     attr_writer :name
     attr_accessor  :meow
-  self.meow
+    @meow
 
 end
